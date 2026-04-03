@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+line-height:1.6;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+h1{
+font-size:3rem;
+}
+
+.typing{
+color:#38bdf8;
+border-right:2px solid white;
+white-space:nowrap;
+overflow:hidden;
+animation:typing 4s steps(30,end),blink .7s infinite;
+}
+
+@keyframes typing{
+from{width:0}
+to{width:100%}
+}
+
+@keyframes blink{
+50%{border-color:transparent}
+}
+
+section{
+padding:60px 20px;
+max-width:900px;
+margin:auto;
+}
+
+.card{
+background:#111827;
+padding:20px;
+margin:15px 0;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+.btn{
+display:inline-block;
+padding:10px 20px;
+margin-top:10px;
+background:#38bdf8;
+color:black;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#0ea5e9;
+}
+
+footer{
+text-align:center;
+padding:20px;
+opacity:0.7;
+}
+
+.profile-pic{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+border:3px solid #38bdf8;
+margin-bottom:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Hi, I'm Ombofu Wayne 👋</h1>
+<div class="typing">Web Developer | Designer | Dream Builder</div>
+<a href="#contact" class="btn">Hire Me</a>
+</header>
+
+<section>
+<h2>About Me</h2>
+<div class="card">
+I am a passionate beginner web developer learning HTML, CSS, and JavaScript. I build modern websites and improve my skills every day.
+</div>
+</section>
+
+<section>
+<h2>Projects</h2>
+<div class="card">🌐 Portfolio Website</div>
+<div class="card">📱 Simple Mobile UI</div>
+<div class="card">⚡ JavaScript Mini Apps</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+
+<p>Name: Ombofu Wayne</p>
+<p>Phone: 0717586028 / 0784286093</p>
+<p>Email: sonwayne070337@email.com</p>
+
+<p>
+GitHub:
+<a href="https://github.com/ombofuwayne" target="_blank">
+ombofuwayne
+</a>
+</p>
+
+<a class="btn" href="#">Send Message</a>
+
+</div>
+</section>
+
+<footer>
+Made with ❤️ using HTML & CSS
+</footer>
+
+</body>
+</html
